@@ -176,6 +176,7 @@
             <artifactId>maven-pmd-plugin</artifactId>
             <version>3.6</version>
             <configuration>
+                <skipEmptyReport>false</skipEmptyReport>
                 <rulesets>
                     <ruleset>https://raw.githubusercontent.com/therapon/cs5004/master/rules.xml</ruleset>
                 </rulesets>
